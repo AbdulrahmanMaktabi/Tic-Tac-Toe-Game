@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-O Game</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert2.min.css">
+</head>
+<body>
+    <!-- Container -->
+    <div id="container" class="container">
+        <!-- Content -->
+        <div id="content" class="content">
+            <!-- Header -->
+            <div id="header" class="header">
+                <!-- Instuction -->
+                <div id="instruction" class="instruction">
+                    x turn
+                </div>
+                <!-- // Instruction // -->
+            </div>
+            <!-- // Header // -->
+            <!-- Board -->
+            <div class="board" id="board">
+                <!-- Row 1 -->
+                <div value="0" class="box" style="border-top: none; border-left: none;"><h3 class="square-content"></h3></div>
+                <div value="1" class="box" style="border-top: none;"><h3 class="square-content"></h3></div>
+                <div value="2" class="box" style="border-top: none; border-right: none;"><h3 class="square-content"></h3></div>
+                <!-- Row 2 -->
+                <div value="3" class="box" style="border-left: none;"><h3 class="square-content"></h3></div>
+                <div value="4" class="box"><h3 class="square-content"></h3></div>
+                <div value="5" class="box" style="border-right: none;"><h3 class="square-content"></h3></div>
+                <!-- Row 3 -->
+                <div value="6" class="box" style="border-bottom: none; border-left: none;"><h3 class="square-content"></h3></div>
+                <div value="7" class="box" style="border-bottom: none;"><h3 class="square-content"></h3></div>
+                <div value="8" class="box" style="border-bottom: none; border-right: none;"><h3 class="square-content"></h3></div>
+            </div>
+            <!-- // Board // -->
+            <div class="footer" id="footer">
+                <button id="reset">
+                    reset
+                </button>
+            </div>
+        </div>
+        <!-- // Content // -->
+    </div>
+    <!-- // Container // -->
+    <script src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+    <script src="JS/app.js"></script>
+    <script>
+        
+    </script>
+</body>
+</html>
